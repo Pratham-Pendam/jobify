@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/shared/navbar'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import  Home  from "./components/Home"
 import Login from "./components/auth/login"
