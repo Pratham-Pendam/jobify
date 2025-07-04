@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:5173',
+    origin:'https://jobify-2-1qe6.onrender.com',
     credentials:true
 }
 // app.use(function(req, res, next) {
